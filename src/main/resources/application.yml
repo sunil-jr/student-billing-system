@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/schoolProject1?createDatabaseIfNotExist=true
+    username: root
+    password: sunil@#$%$#@
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+logging:
+  level:
+    com.example: DEBUG
+jwt:
+  secretKey: 0nCyOpQlTXwxYUuEhHbZLBigYzOKnbrhGnKzpI1sDtw1nlIImzEbAZOh7M5mrpdKq4oTQDeyO+VR8Le15SwBLQ==
+  expiryInMinutes: 120
